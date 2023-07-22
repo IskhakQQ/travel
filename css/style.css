@@ -67,6 +67,7 @@ button {
   line-height: 80px;
 }
 .hero__subtitle {
+  position: relative;
   color: #202336;
   font-size: 22px;
   font-family: Inter;
@@ -75,7 +76,14 @@ button {
   line-height: normal;
   margin-top: 74px;
 }
+.hero__subtitle:after{
+  position: absolute;
+  border:2px #000;
+  border-radius: 4px;
+  width: 32px;
+}
 .hero__select {
+  margin-top: 71px;
   color: #4a4c53;
   font-size: 15px;
   font-family: Inter;
